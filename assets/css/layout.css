@@ -1,0 +1,81 @@
+/* @mixin respond-to
+------------------------------------------------------------------- */
+/* line 23, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
+/*
+body {
+  font-size: 0.75em;
+  background-color: #222;
+  font-family: 'Open Sans', sans-serif;
+  color: #eceff1;
+  line-height: 1.5; }
+*/
+
+@media screen and (min-width: 500px) {
+  body {
+    font-size: 1em; } }
+/*
+a {
+  color: #4472B9;
+  text-decoration: none;
+  transition: color 0.15s ease-in; }
+  a:hover {
+    color: #3D67A6; }
+  a:active, a:focus {
+    color: #222; }
+  a:visited {
+    color: #673ab7; }
+*/
+
+/* line 54, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
+code {
+  font-weight: bold; }
+
+/* line 62, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
+.m-type-display-1 {
+  font-size: 2em;
+  font-weight: 300;
+  margin: 16px 0; }
+
+@media screen and (min-width: 768px) {
+  /* line 69, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
+  .m-type-display-1 {
+    font-size: 4em; } }
+/* line 74, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
+.m-type-sub-heading-1 {
+  font-size: 1.13em;
+  font-weight: 400;
+  margin: 16px 0; }
+
+/* line 80, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
+.m-type-heading-1 {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 16px 0; }
+
+
+@media screen and (min-width: 1024px) {
+  /* line 126, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
+  .m-header {
+    padding: 8.5em 8.5em 4.25em; } }
+
+/* line 174, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
+.m-segment {
+  padding: 1em 4.25em;
+  border-bottom: 1px solid #cfd8dc; }
+  /* line 178, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
+  .m-segment .segment_content {
+    margin: 16px 0;
+    max-width: 40em; }
+  /* line 183, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
+  .m-segment .segment_description {
+    margin: 16px 0; }
+
+@media screen and (min-width: 1024px) {
+  /* line 189, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
+  .m-segment {
+    padding: 2.25em 8.5em; } }
+/* line 201, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
+.m-detail-layout .m-aside .aside_title {
+  margin: 0;
+  font-weight: normal; }
+
